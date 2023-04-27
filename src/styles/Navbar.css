@@ -1,0 +1,56 @@
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  background-color: #020a11;
+  /* position: fixed; */
+}
+
+.navbar {
+  display: flex;
+  padding: 0 2rem;
+}
+
+.navContentBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navContentBox h2,
+div {
+  color: white;
+}
+
+.shopContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.shopContainer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.cartImage_container {
+  position: relative;
+}
+
+.cartImage {
+  position: absolute;
+  top: -0.2rem;
+  left: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #ff0303;
+  color: white;
+  border-radius: 50%;
+  transform: translate(50% 50%);
+  text-align: center;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

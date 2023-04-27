@@ -1,0 +1,31 @@
+.home {
+  width: 100%;
+  height: auto;
+}
+
+.homeBoxGrid {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.homeBoxGrid h3 {
+  font-size: 3rem;
+  color: #020a11;
+  text-shadow: 1px 4px 5px white;
+}
+
+.homeBoxGrid .shoppifyText {
+  width: 13rem;
+  height: 4rem;
+  background-color: #000;
+  transform: skewX(-20deg);
+  display: block;
+  color: white;
+}

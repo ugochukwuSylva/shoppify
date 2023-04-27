@@ -1,0 +1,21 @@
+.addedItemsContainer {
+  padding: 0rem 5rem;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.addedItemsContainer h2 {
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.itemAdded {
+  padding-bottom: 3rem;
+}
+
+.itemAdded h2 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
