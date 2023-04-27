@@ -12,7 +12,7 @@ function Navbar() {
       <div className="navContentBox">
         <h2>SHOPPIFY</h2>
         <div className="shopContainer">
-          <Link to="/">Home page</Link>
+          <Link to="/">Home</Link>
           <Link to="/shopping-page">Shop</Link>
           <Link to="/allAddedItems" className="cartImage_container">
             <FiShoppingCart size={30} />
